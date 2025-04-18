@@ -2,19 +2,21 @@
 
 int main(){
 
-    int numero1, numero2;
-    int resultado;
+    int nota1, nota2, nota3;
+    float media;
+    media =  (float)(nota1 + nota2 + nota3) / 3;
 
-    printf("fale o numero1: \n");
-    scanf( %d &numero1);
+    printf("Digite a primeira nota: ");
+    scanf("%d", &nota1);
 
+    printf("Digite a segunda nota: ");
+    scanf("%d", &nota2);
+
+    printf("Digite a terceira nota: ");
+    scanf("%d", &nota3);
+
+    printf("A media e: %.2f\n", media);
 
     return 0;
-
-
-
-
-
-
 
 }
