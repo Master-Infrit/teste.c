@@ -1,22 +1,15 @@
 #include <stdio.h>
 
 int main(){
+    int numero1;
+    int numero2;
+    numero1 = 30;
+    numero2 = 25;
 
-    int nota1, nota2, nota3;
-    float media;
-    media =  (float)(nota1 + nota2 + nota3) / 3;
-
-    printf("Digite a primeira nota: ");
-    scanf("%d", &nota1);
-
-    printf("Digite a segunda nota: ");
-    scanf("%d", &nota2);
-
-    printf("Digite a terceira nota: ");
-    scanf("%d", &nota3);
-
-    printf("A media e: %.2f\n", media);
-
-    return 0;
+    if (numero1 >= numero2){
+        printf("é o numero  1 maior que o numero 2\n");
+  
+    }
+    else ()
 
 }
