@@ -8,11 +8,12 @@ int main(){
     scanf("%f", &temperatura);
     printf("Entre com a umidade: \n");
     scanf("%f", &umidade);
-    printf("entre com o estoque: \n")
+    printf("entre com o estoque: \n");
     scanf("%u", &estoque);
 
     if ( temperatura < 30){
         printf("Temperatura esta alta\n");
+    }   
     else {
         printf("Temperatura esta nos parametros\n");
     }
